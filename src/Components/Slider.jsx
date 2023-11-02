@@ -45,7 +45,7 @@ const Slider = () => {
   }, [currentIndex]);
 
   return (
-    <div className="sm:max-w-[1400px] sm:h-[780px] Sm:w-full m-auto  relative group">
+    <div className="pt-10 sm:max-w-[1400px] sm:h-[780px] Sm:w-full m-auto  relative group">
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className="   sm:w-full sm:h-full  bg-center bg-cover duration-500"
@@ -63,11 +63,11 @@ const Slider = () => {
           ))}
         </div>
       </div>
- 
+
       <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
         <BsChevronCompactLeft onClick={prevSlide} size={30} />
       </div>
-       
+
       <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
         <BsChevronCompactRight onClick={nextSlide} size={30} />
       </div>

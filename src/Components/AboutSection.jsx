@@ -17,7 +17,7 @@ const AboutSection = () => {
             loan assistance, career counseling, and vocation selection.
           </p>
           <Button
-            className=" bg-[yellowgreen] cursor-pointer p-2 text-white"
+            className=" bg-[yellowgreen]   p-2 text-white cursor-pointer   hover:bg-[tomato]  duration-200"
             text="DISCOVER MORE"
           />
         </div>

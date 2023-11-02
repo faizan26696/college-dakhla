@@ -4,7 +4,7 @@ const CareerStart = () => {
   return (
     <div>
       <div className="flex justify-center py-8">
-        <div className="bg-[yellowgreen] text-white flex   p-4">
+        <div className="rounded-l-[8px] bg-[yellowgreen] text-white flex   p-4">
           <div className="w-[250px]  ">
             <h1 className="text-2xl bold">
               Start Your Career with B.Tech Program.
@@ -23,12 +23,12 @@ const CareerStart = () => {
           </div>
         </div>
 
-        <div className="bg-red-500 text-white flex  p-4">
+        <div className="bg-red-500 text-white flex rounded-r-[8px]  p-4">
           <div className="w-[250px]">
             <h1 className="text-2xl bold">
               Start Your Career with MBBS Program.
             </h1>
-            <button className="text-3xl pt-20  ">
+            <button className="text-3xl pt-20 ">
               <FiPlayCircle />
             </button>
           </div>

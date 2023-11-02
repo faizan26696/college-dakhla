@@ -26,7 +26,7 @@ const UniversitySection = () => {
           return (
             <div
               key={index}
-              className="rounded-lg flex items-start p-[2rem] gap-4 odd:text-white even:bg-gray-200 even:text-black odd:bg-[yellowgreen] w-[360px] h-[400px]"
+              className="cursor-pointer rounded-lg flex items-start p-[2rem] gap-4 odd:text-white even:bg-gray-200 even:text-black odd:bg-[yellowgreen] w-[360px] h-[400px] hover:shadow-2xl hover:shadow-green-700 duration-300"
             >
               <img
                 className="rounded-full w-[100px] h-[100px] p-2"
